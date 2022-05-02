@@ -15,4 +15,18 @@ export interface Movie {
   poster_path: string
   vote_average: number
   vote_count: number
+} 
+export interface Genre {
+  id: number
+  name: string
+}
+
+export interface Element {
+  type:
+    | 'Bloopers'
+    | 'Featurette'
+    | 'Behind the Scenes'
+    | 'Clip'
+    | 'Trailer'
+    | 'Teaser'
 }

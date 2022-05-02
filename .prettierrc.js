@@ -1,7 +1,7 @@
 module.exports = {
-  arrowParens: 'always',
+  arrowParens: 'avoid',
+  trainlingCommand: 'all',
   singleQuote: true,
-  jsxSingleQuote: true,
-  tabWidth: 2,
+  printWidth: 80,
   semi: true,
 };
